@@ -8,7 +8,7 @@ if __name__ == '__main__':
     app = QApplication([])
 
     view = QQuickView()
-    url = QUrl('main.qml')
+    url = QUrl('views/main.qml')
     view.setSource(url)
     view.setResizeMode(QQuickView.SizeRootObjectToView)
     view.show()
