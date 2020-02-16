@@ -12,7 +12,7 @@ import sys
 from setuptools import setup
 
 APP = ['spleeter_gui/SpleeterGUI.py']
-DATA_FILES = []
+DATA_FILES = ['spleeter_gui/main.qml']
 
 if sys.platform == 'darwin':
     extra_options = {
